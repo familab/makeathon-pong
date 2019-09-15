@@ -106,7 +106,7 @@ void loop() {
   }
   else if(distanceTwo > winDistance && distanceOne > winDistance && ballReset == false){
     ballReset = true;
-    strip.clear();
+    strip.clear(); 
     strip.show();
   }
   else if(ballReset == false){
