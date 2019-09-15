@@ -8,13 +8,16 @@ Score is shown on the analog volt display using a formula of Team 1 - Team 2 + 3
 # Pin Out for Arduino UNO
 
 ## Ultrasonic Sensor 1
-- Echo: Digital 2
-- Trig: Digital 3
+- Echo: Digital 2 (Orange)
+- Trig: Digital 3 (Green)
 
 ## Ultrasonic Sensor 2
-- Echo: Digital 7
-- Trig: Digital 6
+- Echo: Digital 7 (Grey)
+- Trig: Digital 6 (White)
 
 ## DC Volt Analog Meter
 - Input: Digital ~11
 - Output: GND
+
+## Neopixels
+- Data: Digital ~9 (Blue)
